@@ -1,4 +1,3 @@
 package coingame.domain;
 
-public class GameUser {
-}
+data class GameUser(val name: String, val level: UserLevel)
